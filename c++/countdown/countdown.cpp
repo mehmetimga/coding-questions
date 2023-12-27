@@ -11,6 +11,7 @@ void countdown(const int& i) {
     
     // recursive case
     countdown(i - 1);
+    return;
 }
 
 int main() {
